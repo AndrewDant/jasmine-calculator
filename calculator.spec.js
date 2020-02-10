@@ -63,4 +63,9 @@ describe('calculator.js', function() {
 		const calc = new Calculator();
 		expect(calc).toBeCalculator();
 	});
+
+	it('uses third party matchers', function () {
+		// toBeNumber comes from an added third party library of matchers
+		expect(0).toBeNumber();
+	});
 });
