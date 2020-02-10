@@ -1,0 +1,24 @@
+.body {
+	background: #455A64;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #818F95;
+}
+
+.input {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	margin: 10px;
+	color: #455A64;
+	padding: 2px;
+}
+
+.result {
+	font-size: 40px;
+	
+}
