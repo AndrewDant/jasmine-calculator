@@ -9,10 +9,18 @@
 
 		<script type="text/javascript" src="calculator.js"></script>
 		<script type="text/javascript" src="main.js"></script>
+
+		<script>
+			window.onload = function() {
+				showVersion();
+			}
+		</script>
 	</head>
 	<body class="body">
 		<h1 class="title">Simple Calculator</h1>
 		<input value="1+2" placeholder="Enter expression" class="input" type="text" onchange="calculate(this.value)">
 		<div class="result"> Result: <span id="result"></span></div>
+
+		<div class="version">version: <span id="version-number"></span></div>
 	</body>
 </html>
